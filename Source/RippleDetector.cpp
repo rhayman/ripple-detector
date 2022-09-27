@@ -224,9 +224,18 @@ void RippleDetector::parameterValueChanged(Parameter* param)
 
 	if (paramName.equalsIgnoreCase("Ripple_Input"))
 	{
-		int localIndex = (int)param->getValue();
-		int globalIndex = getDataStream(param->getStreamId())->getContinuousChannels()[localIndex]->getGlobalIndex();
-		settings[streamId]->rippleInputChannel = globalIndex;
+		Array<var>* array = param->getValue().getArray();
+
+		if (array->size() > 0)
+		{
+			int localIndex = int(array->getFirst());
+			int globalIndex = getDataStream(param->getStreamId())->getContinuousChannels()[localIndex]->getGlobalIndex();
+			settings[streamId]->rippleInputChannel = globalIndex;
+		}
+		else
+		{
+			settings[streamId]->rippleInputChannel = -1;
+		}
 	}
 	else if (paramName.equalsIgnoreCase("Ripple_Out"))
 	{
@@ -277,9 +286,18 @@ void RippleDetector::parameterValueChanged(Parameter* param)
 	}
 	else if (paramName.equalsIgnoreCase("mov_input"))
 	{
-		int localIndex = (int)param->getValue();
-		int globalIndex = getDataStream(param->getStreamId())->getContinuousChannels()[localIndex]->getGlobalIndex();
-		settings[streamId]->movementInputChannel = globalIndex;
+		Array<var>* array = param->getValue().getArray();
+
+		if (array->size() > 0)
+		{
+			int localIndex = int(array->getFirst());
+			int globalIndex = getDataStream(param->getStreamId())->getContinuousChannels()[localIndex]->getGlobalIndex();
+			settings[streamId]->movementInputChannel = globalIndex;
+		}
+		else
+		{
+			settings[streamId]->movementInputChannel = -1;
+		}
 		settings[streamId]->movChannChanged = true;
 	}
 	else if (paramName.equalsIgnoreCase("mov_out"))
