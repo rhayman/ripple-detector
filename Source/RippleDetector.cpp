@@ -337,6 +337,9 @@ void RippleDetector::process(AudioBuffer<float>& buffer)
 			const int64 firstSampleInBlock = getFirstSampleNumberForBlock(streamId);
 			const uint32 numSamplesInBlock = getNumSamplesInBlock(streamId);
 
+			if (settings[streamId]->rippleInputChannel < 0)
+				return;
+
 			float sampleRate = stream->getSampleRate();
 
 			if (!numSamplesInBlock) return;
