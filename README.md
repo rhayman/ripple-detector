@@ -1,50 +1,82 @@
-# Ripple Detector plugin for the Open Ephys GUI
-Open Ephys GUI plugin for ripple detection. It contains an embedded mechanism based on EMG or accelerometer data that blocks ripple events when movement is detected. **Last compatible version of the Open Ephys GUI: v0.6.1**
+# Ripple Detector
+
+![ripple-detector-screenshot](https://open-ephys.github.io/gui-docs/_images/rippledetector-01.png)
+
+Open Ephys GUI plugin for ripple detection. It contains an embedded mechanism based on EMG or accelerometer data that blocks ripple events when movement is detected. 
 
 ## Installation
-First, you will have to download the Open Ephys (OE) GUI source code and compile it (https://open-ephys.github.io/gui-docs/Developer-Guide/Compiling-the-GUI.html). The second step is to create the build files for the plugin and compile it. Again, the official OE website provides all the necessary instructions (https://open-ephys.github.io/gui-docs/Developer-Guide/Compiling-plugins.html). 
+
+The plugin can be added via the Open Ephys GUI's built-in Plugin Installer. Press **ctrl-P** or **⌘P** to open the Plugin Installer, browse to "Ripple Detector", and click the "Install" button. The Ripple Detector plugin should now be available to use.
+
 ## Usage
-- Use this plugin after a Bandpass Filter module, filtering the signal in the ripple frequency band;
-- Use this plugin before a sink module (LFP Viewer, Recording Node, or Pulse Pal, for instance).
-- Note: the parameters for the best ripple detection performance may vary according to the recording setup, noise level, electrode type, implant quality, and even between animals. We recommend that you perform a first recording session to find the optimal parameters using the File Reader source node with the recorded data.
 
-Below is a screenshot of the module being used with real data (hc-18 dataset available at CRCNS.org – Drieu, Todorova and Zugaro, 2018a; Drieu, Todorova and Zugaro, 2018b). We also created synthetic ripple data to perform preliminary tests of the plugin (you will find these data in the folder "Simulation Data").
+Instructions for using the Ripple Detector plugin are available [here](https://open-ephys.github.io/gui-docs/User-Manual/Plugins/Ripple-Detector.html).
 
-![Simulated ripple detection example](Resources/Figures/rippleDetectorExample.png)
+## Building from source
 
-## Ripple Detector GUI
+First, follow the instructions on [this page](https://open-ephys.github.io/gui-docs/Developer-Guide/Compiling-the-GUI.html) to build the Open Ephys GUI.
 
-![Image of RippleDetector](Resources/Figures/rippleDetector.png)
+Then, clone this repository into a directory at the same level as the `plugin-GUI`, e.g.:
+ 
+```
+Code
+├── plugin-GUI
+│   ├── Build
+│   ├── Source
+│   └── ...
+├── OEPlugins
+│   └── ripple-detector
+│       ├── Build
+│       ├── Source
+│       └── ...
+```
 
-- Ripple Input: input channel from which ripple data will be processed;
-- Ripple Output: output TTL channel where detection events are marked;
-- Ripple SD: number of RMS standard deviations above the mean to calculate the amplitude threshold;
-- Time Thr. (ms): time threshold - the minimum period during which the RMS values must be above the amplitude threshold for ripples to be detected; 
-- Refr. Time (ms): refractory time - period after each detection event in which new ripples are not detected;
-- RMS Samp.: RMS samples - number of samples to calculate the RMS value;
+### Windows
 
-- Mov Detect: the mode of movement detection. If "OFF" is selected, the mechanism of event blockage based on movement detection is disabled and ripples are not silenced. If "ACC" is selected, the RMS of all auxiliary channels are used to calculate the magnitude of the acceleration vector. If "EMG" is selected, an input channel is designated  (see the section "Ripple detection algorithm");
-- Mov Input: the channel to use for movement detection in "EMG" mode only. 
-- Mov. Out: movement output - output TTL channel that indicates the period when ripple detection is silenced by movement (0: events not blocked, 1: events blocked);
-- EMG/ACC SD: number of RMS standard deviations above the mean to calculate the amplitude threshold for movement detection based on EMG or accelerometer;
-- Min Time St (ms): minimum time steady - minimum period of immobility (RMS below the amplitude threshold) required to enable ripple detection again after movement is detected;
-- Min Time Mov (ms): minimum time of movement - the minimum period during which the RMS values of EMG/accelerometer must be above the corresponding amplitude threshold for movement detection (and ripple silencing);
+**Requirements:** [Visual Studio](https://visualstudio.microsoft.com/) and [CMake](https://cmake.org/install/)
 
-- Button "Calibrate": recalculates the calibration parameters (RMS mean and standard deviation for both the ripple and movement data);
+From the `Build` directory, enter:
 
-## Ripple detection algorithm
-The ripple detection algorithm works in two steps:
-- Calibration: this is the initial stage when the threshold for ripple detection is calculated. The calibration period corresponds to the first 20 seconds of recording. During this period, the incoming filtered data in the ripple frequency band is divided into blocks of N samples, where N is the "RMS Samp." value set in the plugin's GUI. The RMS value is calculated for each block, so we have a total of (20 * sampleRate / N) RMS points. The RMS mean (RMS_mean) and standard deviation (RMS_standardDeviation) for the whole calibration period are calculated and we have the final amplitude threshold (amplitudeThreshold) specified in terms of standard deviations above the mean:
+```bash
+cmake -G "Visual Studio 17 2022" -A x64 ..
+```
 
-      amplitudeThreshold = RMS_mean + "SD" * RMS_standardDeviation
+Next, launch Visual Studio and open the `OE_PLUGIN_ripple-detector.sln` file that was just created. Select the appropriate configuration (Debug/Release) and build the solution.
 
-   where "SD" is the number of standard deviations above the mean. This parameter can be set in the plugin's GUI.
+Selecting the `INSTALL` project and manually building it will copy the `.dll` and any other required files into the GUI's `plugins` directory. The next time you launch the GUI from Visual Studio, the Ripple Detector plugin should be available.
 
-- Detection: this is when ripples are identified online. The RMS value of each block is calculated and tested against the amplitude threshold. If this value is kept above the amplitude threshold for the minimum time period defined by the parameter "Time Thr.", ripple events are generated. After an event is raised, the detection of new ripple events is disabled for "Refr. Time" milliseconds. This parameter can be also adjusted in the plugin's GUI. If the user selects one option in the "EMG/ACC" comboBox, ripple events are not raised when movement is detected.
 
-Summary of the algorithm:
+### Linux
 
-![Ripple detection algorithm](Resources/Figures/rippleDetectionAlgorithm.png)
+**Requirements:** [CMake](https://cmake.org/install/)
+
+From the `Build` directory, enter:
+
+```bash
+cmake -G "Unix Makefiles" ..
+make install
+```
+
+This will build the plugin and copy the `.so` file into the GUI's `plugins` directory. The next time you launch the GUI compiled version of the GUI, the Ripple Detector plugin should be available.
+
+
+### macOS
+
+**Requirements:** [Xcode](https://developer.apple.com/xcode/) and [CMake](https://cmake.org/install/)
+
+From the `Build` directory, enter:
+
+```bash
+cmake -G "Xcode" ..
+```
+
+Next, launch Xcode and open the `ttl-panels.xcodeproj` file that now lives in the “Build” directory.
+
+Running the `ALL_BUILD` scheme will compile the plugin; running the `INSTALL` scheme will install the `.bundle` file to `/Users/<username>/Library/Application Support/open-ephys/plugins-api8`. The TTL Toggle Panel and TTL Display Panel plugins should be available the next time you launch the GUI from Xcode.
+
+## Attribution
+
+This plugin was originally developed by Christopher Thomas in the Womelsdorf Laboratory at Vanderbilt University. The original repository can be found at https://github.com/att-circ-contrl/PluginTTLDebug
 
 ## Citation and more info
 
