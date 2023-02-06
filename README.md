@@ -76,10 +76,6 @@ Running the `ALL_BUILD` scheme will compile the plugin; running the `INSTALL` sc
 
 ## Attribution
 
-This plugin was originally developed by Christopher Thomas in the Womelsdorf Laboratory at Vanderbilt University. The original repository can be found at https://github.com/att-circ-contrl/PluginTTLDebug
-
-## Citation and more info
-
 If you want to cite the ripple detector or know more about it, please refer to the paper below:
 
 https://iopscience.iop.org/article/10.1088/1741-2552/ac857b
