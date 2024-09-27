@@ -1,0 +1,10 @@
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 16
+[open-ephys][ddebug]     Finished creating buffers in 6.926 milliseconds
+[open-ephys][debug] Creating LfpDisplayCanvas
+[open-ephys][debug]     Created split displays in 6.247 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 2
+[open-ephys][ddebug]     Finished creating buffers in 0.825 milliseconds
+[open-ephys] Calibrating...
+[open-ephys][debug] Calibration finished!
+[open-ephys] Calibrating...
+[open-ephys][debug] Calibration finished!
