@@ -1,0 +1,982 @@
+[
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/BinaryData.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/BinaryData.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/BinaryData.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_basics.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_basics.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_devices.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_devices.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_formats.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_formats.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_audio_processors.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_processors.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_processors.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_audio_utils.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_utils.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_audio_utils.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_core.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_core.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_core.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_cryptography.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_cryptography.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_cryptography.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_data_structures.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_data_structures.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_data_structures.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_events.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_events.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_events.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_graphics.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_graphics.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_graphics.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_gui_basics.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_gui_basics.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_gui_basics.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_gui_extra.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_gui_extra.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_opengl.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_opengl.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_opengl.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/JuceLibraryCode/include_juce_video.cpp.o -c /home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_video.cpp",
+  "file": "/home/robin/gits/plugin-GUI/JuceLibraryCode/include_juce_video.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/AccessClass.cpp.o -c /home/robin/gits/plugin-GUI/Source/AccessClass.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/AccessClass.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/AutoUpdater.cpp.o -c /home/robin/gits/plugin-GUI/Source/AutoUpdater.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/AutoUpdater.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/CoreServices.cpp.o -c /home/robin/gits/plugin-GUI/Source/CoreServices.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/CoreServices.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/MainWindow.cpp.o -c /home/robin/gits/plugin-GUI/Source/MainWindow.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/MainWindow.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Main.cpp.o -c /home/robin/gits/plugin-GUI/Source/Main.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Main.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Audio/AudioComponent.cpp.o -c /home/robin/gits/plugin-GUI/Source/Audio/AudioComponent.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Audio/AudioComponent.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/AudioMonitor/AudioMonitor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/AudioMonitor/AudioMonitor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/AudioMonitor/AudioMonitor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/AudioMonitor/AudioMonitorEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/AudioMonitor/AudioMonitorEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/AudioMonitor/AudioMonitorEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/AudioNode/AudioEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/AudioNode/AudioEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/AudioNode/AudioEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/AudioNode/AudioNode.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/AudioNode/AudioNode.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/AudioNode/AudioNode.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/DataThreads/DataBuffer.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/DataThreads/DataBuffer.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/DataThreads/DataBuffer.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/DataThreads/DataThread.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/DataThreads/DataThread.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/DataThreads/DataThread.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Bessel.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Bessel.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Bessel.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Biquad.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Biquad.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Biquad.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Butterworth.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Butterworth.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Butterworth.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Cascade.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Cascade.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Cascade.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/ChebyshevI.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/ChebyshevI.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/ChebyshevI.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/ChebyshevII.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/ChebyshevII.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/ChebyshevII.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Custom.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Custom.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Custom.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Design.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Design.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Design.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Documentation.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Documentation.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Documentation.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Elliptic.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Elliptic.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Elliptic.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Filter.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Filter.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Filter.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Legendre.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Legendre.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Legendre.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/LinearSmoothedValueAtomic.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/LinearSmoothedValueAtomic.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/LinearSmoothedValueAtomic.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/Param.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/Param.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/Param.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/PoleFilter.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/PoleFilter.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/PoleFilter.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/RBJ.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/RBJ.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/RBJ.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/RootFinder.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/RootFinder.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/RootFinder.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Dsp/State.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Dsp/State.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Dsp/State.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Editors/ElectrodeButtons.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Editors/ElectrodeButtons.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Editors/ElectrodeButtons.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Editors/GenericEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Editors/GenericEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Editors/GenericEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Editors/ImageIcon.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Editors/ImageIcon.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Editors/ImageIcon.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Editors/VisualizerEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Editors/VisualizerEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Editors/VisualizerEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Editors/TTLMonitor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Editors/TTLMonitor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Editors/TTLMonitor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Editors/DelayMonitor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Editors/DelayMonitor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Editors/DelayMonitor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Editors/StreamSelector.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Editors/StreamSelector.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Editors/StreamSelector.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Editors/PopupChannelSelector.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Editors/PopupChannelSelector.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Editors/PopupChannelSelector.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Events/Event.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Events/Event.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Events/Event.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Events/Spike.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Events/Spike.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Events/Spike.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/EventTranslator/EventTranslator.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/EventTranslator/EventTranslator.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/EventTranslator/EventTranslator.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/EventTranslator/EventTranslatorEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/EventTranslator/EventTranslatorEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/EventTranslator/EventTranslatorEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/FileReader/FileReader.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/FileReader/FileReader.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/FileReader/FileReader.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/FileReader/FileReaderEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/FileReader/FileReaderEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/FileReader/FileReaderEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/FileReader/FileSource.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/FileReader/FileSource.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/FileReader/FileSource.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/FileReader/BinaryFileSource/BinaryFileSource.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/FileReader/BinaryFileSource/BinaryFileSource.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/FileReader/BinaryFileSource/BinaryFileSource.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/GenericProcessor/GenericProcessor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/GenericProcessor/GenericProcessor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/GenericProcessor/GenericProcessor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/GenericProcessor/GenericProcessorBase.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/GenericProcessor/GenericProcessorBase.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/GenericProcessor/GenericProcessorBase.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Merger/Merger.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Merger/Merger.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Merger/Merger.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Merger/MergerEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Merger/MergerEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Merger/MergerEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/MessageCenter/MessageCenter.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/MessageCenter/MessageCenter.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/MessageCenter/MessageCenter.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/MessageCenter/MessageCenterEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/MessageCenter/MessageCenterEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/MessageCenter/MessageCenterEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Parameter/Parameter.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Parameter/Parameter.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Parameter/Parameter.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Parameter/ParameterCollection.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Parameter/ParameterCollection.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Parameter/ParameterCollection.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Parameter/ParameterEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Parameter/ParameterEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Parameter/ParameterEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/PlaceholderProcessor/PlaceholderProcessor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/PlaceholderProcessor/PlaceholderProcessor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/PlaceholderProcessor/PlaceholderProcessor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/PlaceholderProcessor/PlaceholderProcessorEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/PlaceholderProcessor/PlaceholderProcessorEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/PlaceholderProcessor/PlaceholderProcessorEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/PluginManager/PluginClass.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/PluginManager/PluginClass.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/PluginManager/PluginClass.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/PluginManager/PluginManager.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/PluginManager/PluginManager.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/PluginManager/PluginManager.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/ProcessorGraph/ProcessorGraph.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/ProcessorGraph/ProcessorGraph.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/ProcessorGraph/ProcessorGraph.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/ProcessorManager/ProcessorManager.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/ProcessorManager/ProcessorManager.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/ProcessorManager/ProcessorManager.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/DataQueue.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/DataQueue.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/DataQueue.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/EngineConfigWindow.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/EngineConfigWindow.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/EngineConfigWindow.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/RecordEngine.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/RecordEngine.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/RecordEngine.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/RecordNode.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/RecordNode.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/RecordNode.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/RecordNodeEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/RecordNodeEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/RecordNodeEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/RecordThread.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/RecordThread.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/RecordThread.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/SyncChannelSelector.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/SyncChannelSelector.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/SyncChannelSelector.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/SyncControlButton.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/SyncControlButton.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/SyncControlButton.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/Synchronizer.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/Synchronizer.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/Synchronizer.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/BinaryFormat/BinaryRecording.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/BinaryFormat/BinaryRecording.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/BinaryFormat/BinaryRecording.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/BinaryFormat/NpyFile.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/BinaryFormat/NpyFile.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/BinaryFormat/NpyFile.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/RecordNode/BinaryFormat/SequentialBlockFile.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/RecordNode/BinaryFormat/SequentialBlockFile.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/RecordNode/BinaryFormat/SequentialBlockFile.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Serial/ofSerial.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Serial/ofSerial.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Serial/ofSerial.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Settings/ConfigurationObject.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Settings/ConfigurationObject.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Settings/ConfigurationObject.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Settings/ContinuousChannel.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Settings/ContinuousChannel.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Settings/ContinuousChannel.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Settings/DataStream.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Settings/DataStream.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Settings/DataStream.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Settings/DeviceInfo.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Settings/DeviceInfo.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Settings/DeviceInfo.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Settings/EventChannel.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Settings/EventChannel.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Settings/EventChannel.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Settings/InfoObject.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Settings/InfoObject.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Settings/InfoObject.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Settings/Metadata.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Settings/Metadata.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Settings/Metadata.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Settings/ProcessorInfo.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Settings/ProcessorInfo.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Settings/ProcessorInfo.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Settings/SpikeChannel.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Settings/SpikeChannel.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Settings/SpikeChannel.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/SourceNode/SourceNode.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/SourceNode/SourceNode.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/SourceNode/SourceNode.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/SourceNode/SourceNodeEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/SourceNode/SourceNodeEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/SourceNode/SourceNodeEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Splitter/Splitter.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Splitter/Splitter.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Splitter/Splitter.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Splitter/SplitterEditor.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Splitter/SplitterEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Splitter/SplitterEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Visualization/DataWindow.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Visualization/DataWindow.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Visualization/DataWindow.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Visualization/InteractivePlot.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Visualization/InteractivePlot.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Visualization/InteractivePlot.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Processors/Visualization/Visualizer.cpp.o -c /home/robin/gits/plugin-GUI/Source/Processors/Visualization/Visualizer.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Processors/Visualization/Visualizer.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/ControlPanel.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/ControlPanel.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/ControlPanel.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/CustomArrowButton.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/CustomArrowButton.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/CustomArrowButton.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/DataViewport.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/DataViewport.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/DataViewport.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/DefaultConfig.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/DefaultConfig.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/DefaultConfig.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/EditorViewport.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/EditorViewport.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/EditorViewport.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/EditorViewportActions.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/EditorViewportActions.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/EditorViewportActions.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/EditorViewportButtons.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/EditorViewportButtons.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/EditorViewportButtons.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/FilenameConfigWindow.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/FilenameConfigWindow.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/FilenameConfigWindow.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/GraphViewer.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/GraphViewer.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/GraphViewer.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/InfoLabel.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/InfoLabel.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/InfoLabel.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/PluginInstaller.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/PluginInstaller.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/PluginInstaller.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/ProcessorList.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/ProcessorList.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/ProcessorList.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/UIComponent.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/UIComponent.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/UIComponent.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/LookAndFeel/CustomLookAndFeel.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/LookAndFeel/CustomLookAndFeel.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/LookAndFeel/CustomLookAndFeel.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/LookAndFeel/MaterialButtonLookAndFeel.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/LookAndFeel/MaterialButtonLookAndFeel.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/LookAndFeel/MaterialButtonLookAndFeel.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/LookAndFeel/MaterialSliderLookAndFeel.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/LookAndFeel/MaterialSliderLookAndFeel.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/LookAndFeel/MaterialSliderLookAndFeel.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/Utils/ButtonGroupManager.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/Utils/ButtonGroupManager.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/Utils/ButtonGroupManager.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/Utils/LinearButtonGroupManager.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/Utils/LinearButtonGroupManager.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/Utils/LinearButtonGroupManager.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/UI/Utils/TiledButtonGroupManager.cpp.o -c /home/robin/gits/plugin-GUI/Source/UI/Utils/TiledButtonGroupManager.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/UI/Utils/TiledButtonGroupManager.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/usr/include/freetype2 -I/usr/include/webkitgtk-4.0 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -g -O0 -fPIC -rdynamic -fvisibility=hidden -Wno-free-nonheap-object -o CMakeFiles/open-ephys.dir/Source/Utils/ListSliceParser.cpp.o -c /home/robin/gits/plugin-GUI/Source/Utils/ListSliceParser.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Source/Utils/ListSliceParser.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ArduinoOutput",
+  "command": "/usr/bin/c++ -DArduinoOutput_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ArduinoOutput.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ArduinoOutput/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ArduinoOutput/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ArduinoOutput",
+  "command": "/usr/bin/c++ -DArduinoOutput_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ArduinoOutput.dir/serial/ofArduino.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ArduinoOutput/serial/ofArduino.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ArduinoOutput/serial/ofArduino.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ArduinoOutput",
+  "command": "/usr/bin/c++ -DArduinoOutput_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ArduinoOutput.dir/ArduinoOutput.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ArduinoOutput/ArduinoOutput.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ArduinoOutput/ArduinoOutput.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ArduinoOutput",
+  "command": "/usr/bin/c++ -DArduinoOutput_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ArduinoOutput.dir/ArduinoOutputEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ArduinoOutput/ArduinoOutputEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ArduinoOutput/ArduinoOutputEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/BasicSpikeDisplay",
+  "command": "/usr/bin/c++ -DBasicSpikeDisplay_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/BasicSpikeDisplay.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/BasicSpikeDisplay",
+  "command": "/usr/bin/c++ -DBasicSpikeDisplay_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/BasicSpikeDisplay.dir/SpikeDetector/SpikeDetector.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDetector/SpikeDetector.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDetector/SpikeDetector.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/BasicSpikeDisplay",
+  "command": "/usr/bin/c++ -DBasicSpikeDisplay_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/BasicSpikeDisplay.dir/SpikeDetector/SpikeDetectorEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDetector/SpikeDetectorEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDetector/SpikeDetectorEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/BasicSpikeDisplay",
+  "command": "/usr/bin/c++ -DBasicSpikeDisplay_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/BasicSpikeDisplay.dir/SpikeDetector/PopupConfigurationWindow.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDetector/PopupConfigurationWindow.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDetector/PopupConfigurationWindow.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/BasicSpikeDisplay",
+  "command": "/usr/bin/c++ -DBasicSpikeDisplay_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/BasicSpikeDisplay.dir/SpikeDisplayNode/SpikeDisplayCanvas.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikeDisplayCanvas.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikeDisplayCanvas.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/BasicSpikeDisplay",
+  "command": "/usr/bin/c++ -DBasicSpikeDisplay_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/BasicSpikeDisplay.dir/SpikeDisplayNode/SpikeDisplay.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikeDisplay.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikeDisplay.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/BasicSpikeDisplay",
+  "command": "/usr/bin/c++ -DBasicSpikeDisplay_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/BasicSpikeDisplay.dir/SpikeDisplayNode/SpikePlots.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikePlots.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikePlots.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/BasicSpikeDisplay",
+  "command": "/usr/bin/c++ -DBasicSpikeDisplay_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/BasicSpikeDisplay.dir/SpikeDisplayNode/SpikeDisplayEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikeDisplayEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikeDisplayEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/BasicSpikeDisplay",
+  "command": "/usr/bin/c++ -DBasicSpikeDisplay_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/BasicSpikeDisplay.dir/SpikeDisplayNode/SpikeDisplayNode.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikeDisplayNode.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/BasicSpikeDisplay/SpikeDisplayNode/SpikeDisplayNode.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ChannelMappingNode",
+  "command": "/usr/bin/c++ -DChannelMappingNode_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ChannelMappingNode.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ChannelMappingNode/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ChannelMappingNode/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ChannelMappingNode",
+  "command": "/usr/bin/c++ -DChannelMappingNode_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ChannelMappingNode.dir/ChannelMappingNode.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ChannelMappingNode/ChannelMappingNode.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ChannelMappingNode/ChannelMappingNode.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ChannelMappingNode",
+  "command": "/usr/bin/c++ -DChannelMappingNode_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ChannelMappingNode.dir/ChannelMappingEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ChannelMappingNode/ChannelMappingEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ChannelMappingNode/ChannelMappingEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/CommonAverageRef",
+  "command": "/usr/bin/c++ -DCommonAverageRef_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/CommonAverageRef.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/CommonAverageRef/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/CommonAverageRef/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/CommonAverageRef",
+  "command": "/usr/bin/c++ -DCommonAverageRef_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/CommonAverageRef.dir/CommonAverageRef.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/CommonAverageRef/CommonAverageRef.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/CommonAverageRef/CommonAverageRef.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/CommonAverageRef",
+  "command": "/usr/bin/c++ -DCommonAverageRef_EXPORTS -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/CommonAverageRef.dir/CommonAverageRefEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/CommonAverageRef/CommonAverageRefEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/CommonAverageRef/CommonAverageRefEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/FilterNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DFilterNode_EXPORTS -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/FilterNode.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/FilterNode/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/FilterNode/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/FilterNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DFilterNode_EXPORTS -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/FilterNode.dir/FilterNode.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/FilterNode/FilterNode.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/FilterNode/FilterNode.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/FilterNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DFilterNode_EXPORTS -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/FilterNode.dir/FilterEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/FilterNode/FilterEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/FilterNode/FilterEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/LfpDisplayNode.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplayNode.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplayNode.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/LfpDisplayEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplayEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplayEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/DisplayBuffer.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/DisplayBuffer.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/DisplayBuffer.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/EventDisplayInterface.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/EventDisplayInterface.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/EventDisplayInterface.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/LfpChannelDisplay.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpChannelDisplay.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpChannelDisplay.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/LfpChannelDisplayInfo.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpChannelDisplayInfo.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpChannelDisplayInfo.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/LfpDisplay.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplay.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplay.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/LfpDisplayCanvas.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplayCanvas.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplayCanvas.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/LfpDisplayOptions.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplayOptions.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpDisplayOptions.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/LfpTimescale.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpTimescale.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpTimescale.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/LfpViewport.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpViewport.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/LfpViewport.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/PerPixelBitmapPlotter.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/PerPixelBitmapPlotter.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/PerPixelBitmapPlotter.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ShowHideOptionsButton.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ShowHideOptionsButton.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ShowHideOptionsButton.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/SupersampledBitmapPlotter.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/SupersampledBitmapPlotter.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/SupersampledBitmapPlotter.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ColourSchemes/ChannelColourScheme.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/ChannelColourScheme.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/ChannelColourScheme.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ColourSchemes/DefaultColourScheme.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/DefaultColourScheme.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/DefaultColourScheme.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ColourSchemes/MonochromeGrayColourScheme.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/MonochromeGrayColourScheme.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/MonochromeGrayColourScheme.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ColourSchemes/MonochromeYellowColourScheme.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/MonochromeYellowColourScheme.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/MonochromeYellowColourScheme.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ColourSchemes/MonochromeGreenColourScheme.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/MonochromeGreenColourScheme.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/MonochromeGreenColourScheme.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ColourSchemes/MonochromePurpleColourScheme.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/MonochromePurpleColourScheme.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/MonochromePurpleColourScheme.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ColourSchemes/OELogoColourScheme.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/OELogoColourScheme.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/OELogoColourScheme.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ColourSchemes/TropicalColourScheme.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/TropicalColourScheme.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/TropicalColourScheme.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/LfpDisplayNode",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DLfpDisplayNode_EXPORTS -DOEPLUGIN -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/LfpDisplayNode.dir/ColourSchemes/LightBackgroundColourScheme.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/LightBackgroundColourScheme.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/LfpDisplayNode/ColourSchemes/LightBackgroundColourScheme.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/PhaseDetector",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DPhaseDetector_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/PhaseDetector.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/PhaseDetector/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/PhaseDetector/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/PhaseDetector",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DPhaseDetector_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/PhaseDetector.dir/PhaseDetector.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/PhaseDetector/PhaseDetector.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/PhaseDetector/PhaseDetector.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/PhaseDetector",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DPhaseDetector_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/PhaseDetector.dir/PhaseDetectorEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/PhaseDetector/PhaseDetectorEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/PhaseDetector/PhaseDetectorEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/RecordControl",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DRecordControl_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/RecordControl.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/RecordControl/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/RecordControl/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/RecordControl",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DRecordControl_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/RecordControl.dir/RecordControl.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/RecordControl/RecordControl.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/RecordControl/RecordControl.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/RecordControl",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DRecordControl_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/RecordControl.dir/RecordControlEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/RecordControl/RecordControlEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/RecordControl/RecordControlEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/StimControl",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DStimControl_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/StimControl.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/StimControl/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/StimControl/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/StimControl",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DStimControl_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/StimControl.dir/StimControl.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/StimControl/StimControl.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/StimControl/StimControl.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/StimControl",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DStimControl_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/StimControl.dir/StimControlEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/StimControl/StimControlEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/StimControl/StimControlEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ripple-detector",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -Dripple_detector_EXPORTS -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ripple-detector.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ripple-detector/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ripple-detector/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ripple-detector",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -Dripple_detector_EXPORTS -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ripple-detector.dir/RippleDetector.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ripple-detector/RippleDetector.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ripple-detector/RippleDetector.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/ripple-detector",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -D_DEBUG=1 -Dripple_detector_EXPORTS -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/ripple-detector.dir/RippleDetectorEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/ripple-detector/RippleDetectorEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/ripple-detector/RippleDetectorEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/OpenEphysLib.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/OpenEphysLib.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/OpenEphysLib.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/TrackingThread.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingThread.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingThread.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/TrackingThreadEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingThreadEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingThreadEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/TrackingVisualizerCanvas.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingVisualizerCanvas.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingVisualizerCanvas.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/TrackingVisualizer.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingVisualizer.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingVisualizer.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/TrackingVisualizerEditor.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingVisualizerEditor.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/TrackingVisualizerEditor.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/oscpack/ip/IpEndpointName.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/ip/IpEndpointName.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/ip/IpEndpointName.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/oscpack/ip/NetworkingUtils.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/ip/NetworkingUtils.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/ip/NetworkingUtils.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/oscpack/ip/UdpSocket.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/ip/UdpSocket.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/ip/UdpSocket.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/oscpack/osc/OscOutboundPacketStream.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/osc/OscOutboundPacketStream.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/osc/OscOutboundPacketStream.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/oscpack/osc/OscPrintReceivedElements.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/osc/OscPrintReceivedElements.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/osc/OscPrintReceivedElements.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/oscpack/osc/OscReceivedElements.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/osc/OscReceivedElements.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/osc/OscReceivedElements.cpp"
+},
+{
+  "directory": "/home/robin/gits/plugin-GUI/Build/Plugins/TrackMe",
+  "command": "/usr/bin/c++ -DDEBUG=1 -DJUCE_APP_VERSION=0.6.7 -DJUCE_APP_VERSION_HEX=0x0607 -DOEPLUGIN -DTrackMe_EXPORTS -D_DEBUG=1 -I/home/robin/gits/plugin-GUI/JuceLibraryCode -I/home/robin/gits/plugin-GUI/JuceLibraryCode/modules -I/home/robin/gits/plugin-GUI/Plugins/Headers -g -fPIC -fPIC -rdynamic -O3 -o CMakeFiles/TrackMe.dir/oscpack/osc/OscTypes.cpp.o -c /home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/osc/OscTypes.cpp",
+  "file": "/home/robin/gits/plugin-GUI/Plugins/TrackMe/oscpack/osc/OscTypes.cpp"
+}
+]
