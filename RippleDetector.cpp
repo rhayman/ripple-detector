@@ -516,7 +516,8 @@ void RippleDetector::detectRipples(uint64 streamId) {
         auto time_now = std::chrono::duration_cast<std::chrono::milliseconds>(
             std::chrono::system_clock::now().time_since_epoch());
         auto time_elapsed = time_now - settings[streamId]->rippleStartTime;
-        if (time_elapsed.count() > settings[streamId]->ttl_duration) {
+        if (time_elapsed.count() >= settings[streamId]->ttl_duration) {
+          // LOGC("Elapsed time: ", time_elapsed.count());
           TTLEventPtr event = settings[streamId]->createEvent(
               settings[streamId]->rippleOutputChannel,
               getFirstSampleNumberForBlock(streamId) + rmsIdx, 0);
@@ -545,12 +546,12 @@ void RippleDetector::detectRipples(uint64 streamId) {
         !settings[streamId]->onRefractoryTime) {
 
       if (settings[streamId]->pluginEnabled) {
-        settings[streamId]->rippleStartTime =
-            std::chrono::duration_cast<std::chrono::milliseconds>(
-                std::chrono::system_clock::now().time_since_epoch());
         TTLEventPtr event = settings[streamId]->createEvent(
             settings[streamId]->rippleOutputChannel,
             getFirstSampleNumberForBlock(streamId) + rmsIdx, 1);
+        settings[streamId]->rippleStartTime =
+            std::chrono::duration_cast<std::chrono::milliseconds>(
+                std::chrono::system_clock::now().time_since_epoch());
         addEvent(event, rmsIdx);
         LOGC("Ripple detected on stream: ", streamId);
       } else {
