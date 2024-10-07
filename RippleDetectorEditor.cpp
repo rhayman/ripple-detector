@@ -72,7 +72,7 @@ RippleDetectorEditor::RippleDetectorEditor(GenericProcessor *parentNode)
 
   rippleDetector = (RippleDetector *)parentNode;
 
-  desiredWidth = 460; // Plugin's desired width`
+  desiredWidth = 555; // Plugin's desired width`
 
   /* Ripple Detection Settings */
   addSelectedChannelsParameterEditor("Ripple_Input", 10, 25);
@@ -86,7 +86,7 @@ RippleDetectorEditor::RippleDetectorEditor(GenericProcessor *parentNode)
   addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 95, 50);
 
   param = getProcessor()->getParameter("ttl_duration");
-  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 325, 100);
+  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 315, 100);
 
   param = getProcessor()->getParameter("refr_time");
   addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 95, 75);
@@ -100,14 +100,19 @@ RippleDetectorEditor::RippleDetectorEditor(GenericProcessor *parentNode)
   addComboBoxParameterEditor("Mov_Out", 230, 85);
 
   param = getProcessor()->getParameter("mov_std");
-  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 325, 25);
+  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 315, 25);
 
   param = getProcessor()->getParameter("min_time_st");
-  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 325, 50);
+  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 315, 50);
 
   param = getProcessor()->getParameter("min_time_mov");
-  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 325, 75);
+  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 315, 75);
 
+  param = getProcessor()->getParameter("ttl_percent");
+  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 435, 25);
+
+  param = getProcessor()->getParameter("Ripple_save");
+  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 435, 50);
   /* Calibration Button */
   calibrateButton = std::make_unique<UtilityButton>("Calibrate", titleFont);
   calibrateButton->addListener(this);

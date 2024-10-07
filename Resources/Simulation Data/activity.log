@@ -8,3 +8,15 @@
 [open-ephys][debug] Calibration finished!
 [open-ephys] Calibrating...
 [open-ephys][debug] Calibration finished!
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 16
+[open-ephys][ddebug]     Finished creating buffers in 3.921 milliseconds
+[open-ephys][debug] Creating LfpDisplayCanvas
+[open-ephys][debug]     Created split displays in 4.785 milliseconds
+[open-ephys][ddebug]     Loaded layout in 0.002 milliseconds
+[open-ephys][debug] LfpDisplayCanvas loading custom parameters.
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 16
+[open-ephys][ddebug]     Finished creating buffers in 0.023 milliseconds
+[open-ephys][debug] Setting num inputs on LfpDisplayNode to 2
+[open-ephys][ddebug]     Finished creating buffers in 0.77 milliseconds
+[open-ephys] Calibrating...
+[open-ephys][debug] Calibration finished!

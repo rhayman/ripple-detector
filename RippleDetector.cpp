@@ -1,7 +1,14 @@
 #include "RippleDetector.h"
 #include "RippleDetectorEditor.h"
+#include <cstdint>
+#include <random>
 
 #define CALIBRATION_DURATION_SECONDS 20
+// random number generator for ttl event percent output
+std::random_device os_seed;
+const uint_least32_t seed = os_seed();
+std::mt19937 generator(seed);
+std::uniform_int_distribution<uint_least32_t> distribute(1, 100);
 
 RippleDetectorSettings::RippleDetectorSettings() {}
 
@@ -39,9 +46,20 @@ RippleDetector::RippleDetector() : GenericProcessor("Ripple Detector") {
 
   addFloatParameter(Parameter::STREAM_SCOPE, "refr_time", "refractory value",
                     140, 0, 999999, 1);
+
   addFloatParameter(Parameter::STREAM_SCOPE, "ttl_duration",
                     "Minimum TTL output duration (ms)", 100, 0, 999999, 1);
 
+  addFloatParameter(Parameter::STREAM_SCOPE, "ttl_percent",
+                    "Percentage of times detected ripples are output", 100, 0,
+                    100, 1);
+
+  addIntParameter(Parameter::STREAM_SCOPE, "Ripple_save",
+                  "The TTL line where ripple detection events are saved",
+                  1, // deafult
+                  1, // min
+                  16 // max
+  );
   addFloatParameter(Parameter::STREAM_SCOPE, "rms_samples", "rms samples value",
                     128, 1, 2048, 1);
 
@@ -123,6 +141,9 @@ void RippleDetector::updateSettings() {
     parameterValueChanged(stream->getParameter("mov_std"));
     parameterValueChanged(stream->getParameter("min_time_st"));
     parameterValueChanged(stream->getParameter("min_time_mov"));
+    parameterValueChanged(stream->getParameter("Ripple_save"));
+    parameterValueChanged(stream->getParameter("ttl_percent"));
+    parameterValueChanged(stream->getParameter("ttl_duration"));
 
     // Add AUX channels to use for accelerometer data
     settings[stream->getStreamId()]->auxChannelIndices.clear();
@@ -179,6 +200,10 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
     settings[streamId]->refractoryTime = (int)param->getValue();
   } else if (paramName.equalsIgnoreCase("ttl_duration")) {
     settings[streamId]->ttl_duration = (double)param->getValue();
+  } else if (paramName.equalsIgnoreCase("ttl_percent")) {
+    settings[streamId]->ttl_percent = (double)param->getValue();
+  } else if (paramName.equalsIgnoreCase("Ripple_save")) {
+    settings[streamId]->ttlReportChannel = (int)param->getValue();
   } else if (paramName.equalsIgnoreCase("RMS_Samples")) {
     settings[streamId]->rmsSamples = (int)param->getValue();
   } else if (paramName.equalsIgnoreCase("mov_detect")) {
@@ -500,7 +525,6 @@ void RippleDetector::finishCalibration(uint64 streamId) {
 
 // Evaluate RMS values in the detection algorithm
 void RippleDetector::detectRipples(uint64 streamId) {
-
   std::vector<double> &rmsValues = rmsValuesArray[streamId];
   std::vector<int> &rmsNumSamples = rmsNumSamplesArray[streamId];
 
@@ -516,8 +540,14 @@ void RippleDetector::detectRipples(uint64 streamId) {
         auto time_now = std::chrono::duration_cast<std::chrono::milliseconds>(
             std::chrono::system_clock::now().time_since_epoch());
         auto time_elapsed = time_now - settings[streamId]->rippleStartTime;
+        // only create an event if the time since the ripple was detected is
+        // equal to or greater than the minimum TTL duration
+        // otherwise "record" the TTL event on the "Ripple_save" channel
+        TTLEventPtr ev = settings[streamId]->createEvent(
+            settings[streamId]->ttlReportChannel,
+            getFirstSampleNumberForBlock(streamId) + rmsIdx, false);
+        addEvent(ev, rmsIdx);
         if (time_elapsed.count() >= settings[streamId]->ttl_duration) {
-          // LOGC("Elapsed time: ", time_elapsed.count());
           TTLEventPtr event = settings[streamId]->createEvent(
               settings[streamId]->rippleOutputChannel,
               getFirstSampleNumberForBlock(streamId) + rmsIdx, 0);
@@ -546,17 +576,29 @@ void RippleDetector::detectRipples(uint64 streamId) {
         !settings[streamId]->onRefractoryTime) {
 
       if (settings[streamId]->pluginEnabled) {
-        TTLEventPtr event = settings[streamId]->createEvent(
-            settings[streamId]->rippleOutputChannel,
-            getFirstSampleNumberForBlock(streamId) + rmsIdx, 1);
-        settings[streamId]->rippleStartTime =
-            std::chrono::duration_cast<std::chrono::milliseconds>(
-                std::chrono::system_clock::now().time_since_epoch());
-        addEvent(event, rmsIdx);
-        LOGC("Ripple detected on stream: ", streamId);
+        // only propagate a ripple event "ttl_percent" of the time
+        // otherwise record that we've detected one on the "Ripple_save"
+        // TTL channel
+        TTLEventPtr ev = settings[streamId]->createEvent(
+            settings[streamId]->ttlReportChannel,
+            getFirstSampleNumberForBlock(streamId) + rmsIdx, true);
+        addEvent(ev, rmsIdx);
+        if (distribute(generator) <= settings[streamId]->ttl_percent) {
+          TTLEventPtr event = settings[streamId]->createEvent(
+              settings[streamId]->rippleOutputChannel,
+              getFirstSampleNumberForBlock(streamId) + rmsIdx, 1);
+          settings[streamId]->rippleStartTime =
+              std::chrono::duration_cast<std::chrono::milliseconds>(
+                  std::chrono::system_clock::now().time_since_epoch());
+          addEvent(event, rmsIdx);
+          LOGC("Ripple detected on stream: ", streamId);
+        } else {
+          LOGC("Ripple detected on stream: ", streamId,
+               ", but blocked by chance!\n");
+        }
       } else {
-        LOGC("Ripple detected on stream", streamId,
-             "but TTL event was blocked by movement detection.\n");
+        LOGC("Ripple detected on stream: ", streamId,
+             ", but TTL event was blocked by movement detection.\n");
       }
 
       settings[streamId]->rippleDetected = true;

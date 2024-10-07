@@ -32,6 +32,8 @@ public:
   int rippleOutputChannel;   // Output TTL channel
   int movementInputChannel;  // Movement detection channel
   int movementOutputChannel; // Movement detection output TTL channel
+  int ttlReportChannel; // all TTL events are sent to this channel - must be
+                        // different to the ones above
   double rippleSds;  // Number of standard deviations above average to compose
                      // the amplitude threshold
   int timeThreshold; // Time threshold (milliseconds)
@@ -99,7 +101,9 @@ public:
                                   // below threshold was achieved
   bool accelerometerSelected{
       false}; // True when accelerometer is selected to movement detector
-  double ttl_duration;
+  double ttl_duration; // the minimum length in ms of the TTL output
+  double ttl_percent;  // the percentage of the time that a TTL output is
+                       // produced following ripple detection
 
   // TTL event channel
   EventChannel *eventChannel;
