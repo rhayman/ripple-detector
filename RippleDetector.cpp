@@ -203,7 +203,7 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
   } else if (paramName.equalsIgnoreCase("ttl_percent")) {
     settings[streamId]->ttl_percent = (double)param->getValue();
   } else if (paramName.equalsIgnoreCase("Ripple_save")) {
-    settings[streamId]->ttlReportChannel = (int)param->getValue();
+    settings[streamId]->ttlReportChannel = (int)param->getValue() - 1;
   } else if (paramName.equalsIgnoreCase("RMS_Samples")) {
     settings[streamId]->rmsSamples = (int)param->getValue();
   } else if (paramName.equalsIgnoreCase("mov_detect")) {
@@ -524,7 +524,124 @@ void RippleDetector::finishCalibration(uint64 streamId) {
 }
 
 // Evaluate RMS values in the detection algorithm
+// void RippleDetector::detectRipples(uint64 streamId) {
+//   std::vector<double> &rmsValues = rmsValuesArray[streamId];
+//   std::vector<int> &rmsNumSamples = rmsNumSamplesArray[streamId];
+//
+//   // Iterate over RMS blocks inside buffer
+//   for (unsigned int rmsIdx = 0; rmsIdx < rmsValues.size(); rmsIdx++) {
+//     double rms = rmsValues[rmsIdx];
+//     int samples = rmsNumSamples[rmsIdx];
+//
+//     // Reset TTL if ripple was detected during the last iteration
+//     if (settings[streamId]->rippleDetected) {
+//
+//       if (settings[streamId]->pluginEnabled) {
+//         // only create an event if the time since the ripple was detected is
+//         // equal to or greater than the minimum TTL duration
+//         // otherwise "record" the TTL event on the "Ripple_save" channel
+//         // TTLEventPtr ev = settings[streamId]->createEvent(
+//         //     settings[streamId]->ttlReportChannel,
+//         //     getFirstSampleNumberForBlock(streamId) + rmsIdx, false);
+//         // addEvent(ev, rmsIdx);
+//         // LOGC("Reset");
+//         auto time_now =
+//         std::chrono::duration_cast<std::chrono::milliseconds>(
+//             std::chrono::system_clock::now().time_since_epoch());
+//         // LOGC("ripple start time count: ",
+//         //      settings[streamId]->rippleStartTime.count());
+//         auto time_elapsed = time_now - settings[streamId]->rippleStartTime;
+//         LOGC("time elapsed: ", time_elapsed.count());
+//         if (time_elapsed.count() >= settings[streamId]->ttl_duration) { // &&
+//           // settings[streamId]->random_number <=
+//           //     settings[streamId]->ttl_percent) {
+//           TTLEventPtr event = settings[streamId]->createEvent(
+//               settings[streamId]->rippleOutputChannel,
+//               getFirstSampleNumberForBlock(streamId) + rmsIdx, 0);
+//           addEvent(event, rmsIdx);
+//           settings[streamId]->rippleDetected = false;
+//           // }
+//         }
+//       }
+//
+//       // Counter: acumulate time above threshold
+//       if (rms > settings[streamId]->threshold) {
+//         settings[streamId]->counterAboveThresh += samples;
+//       } else {
+//         settings[streamId]->counterAboveThresh = 0;
+//         settings[streamId]->flagTimeThreshold = false;
+//       }
+//
+//       // Set flag to indicate that time threshold was achieved
+//       if (settings[streamId]->counterAboveThresh >
+//           settings[streamId]->numSamplesTimeThreshold) {
+//         settings[streamId]->flagTimeThreshold = true;
+//       }
+//
+//       // Send TTL if ripple is detected and it is not on refractory period
+//       if (settings[streamId]->flagTimeThreshold &&
+//           !settings[streamId]->onRefractoryTime) {
+//
+//         if (settings[streamId]->pluginEnabled) {
+//           // record the start time of the ripple for later checking
+//           // if duration of ttl pulse is at least min_duration
+//           // only propagate a ripple event "ttl_percent" of the time
+//           // otherwise record that we've detected one on the "Ripple_save"
+//           // TTL channel
+//           settings[streamId]->rippleStartTime =
+//               std::chrono::duration_cast<std::chrono::milliseconds>(
+//                   std::chrono::system_clock::now().time_since_epoch());
+//           // TTLEventPtr ev = settings[streamId]->createEvent(
+//           //     settings[streamId]->ttlReportChannel,
+//           //     getFirstSampleNumberForBlock(streamId) + rmsIdx, true);
+//           // addEvent(ev, rmsIdx);
+//           // LOGC("Detect");
+//           // settings[streamId]->random_number = distribute(generator);
+//           // if (settings[streamId]->random_number <=
+//           //     settings[streamId]->ttl_percent) {
+//           TTLEventPtr event = settings[streamId]->createEvent(
+//               settings[streamId]->rippleOutputChannel,
+//               getFirstSampleNumberForBlock(streamId) + rmsIdx, 1);
+//           addEvent(event, rmsIdx);
+//           LOGC("Ripple detected on stream: ", streamId);
+//           // } else {
+//           //   LOGC("Ripple detected on stream: ", streamId,
+//           //        ", but blocked by chance!\n");
+//           // }
+//         } else {
+//           LOGC("Ripple detected on stream: ", streamId,
+//                ", but TTL event was blocked by movement detection.\n");
+//         }
+//
+//         settings[streamId]->rippleDetected = true;
+//
+//         // Start refractory period
+//         settings[streamId]->onRefractoryTime = true;
+//         settings[streamId]->refractoryTimeStart =
+//             std::chrono::duration_cast<std::chrono::milliseconds>(
+//                 std::chrono::system_clock::now().time_since_epoch());
+//       }
+//
+//       // printf("en %d, refrac %d, rms %f, thresh %f, counterAboveThresh
+//       // %d\n", pluginEnabled, onRefractoryTime, rms, threshold,
+//       // counterAboveThresh);
+//
+//       // Check and reset refractory time
+//       if (settings[streamId]->onRefractoryTime) {
+//         settings[streamId]->timeNow =
+//             std::chrono::duration_cast<std::chrono::milliseconds>(
+//                 std::chrono::system_clock::now().time_since_epoch());
+//         if (settings[streamId]->timeNow.count() -
+//                 settings[streamId]->refractoryTimeStart.count() >=
+//             settings[streamId]->refractoryTime) {
+//           settings[streamId]->onRefractoryTime = false;
+//         }
+//       }
+//     }
+//   }
+// }
 void RippleDetector::detectRipples(uint64 streamId) {
+
   std::vector<double> &rmsValues = rmsValuesArray[streamId];
   std::vector<int> &rmsNumSamples = rmsNumSamplesArray[streamId];
 
@@ -540,18 +657,12 @@ void RippleDetector::detectRipples(uint64 streamId) {
         auto time_now = std::chrono::duration_cast<std::chrono::milliseconds>(
             std::chrono::system_clock::now().time_since_epoch());
         auto time_elapsed = time_now - settings[streamId]->rippleStartTime;
-        // only create an event if the time since the ripple was detected is
-        // equal to or greater than the minimum TTL duration
-        // otherwise "record" the TTL event on the "Ripple_save" channel
-        TTLEventPtr ev = settings[streamId]->createEvent(
-            settings[streamId]->ttlReportChannel,
-            getFirstSampleNumberForBlock(streamId) + rmsIdx, false);
-        addEvent(ev, rmsIdx);
         if (time_elapsed.count() >= settings[streamId]->ttl_duration) {
+          LOGC("time elapsed count = ", time_elapsed.count());
           TTLEventPtr event = settings[streamId]->createEvent(
               settings[streamId]->rippleOutputChannel,
-              getFirstSampleNumberForBlock(streamId) + rmsIdx, 0);
-          addEvent(event, rmsIdx);
+              getFirstSampleNumberForBlock(streamId), false);
+          addEvent(event, 0);
           settings[streamId]->rippleDetected = false;
         }
       }
@@ -576,29 +687,17 @@ void RippleDetector::detectRipples(uint64 streamId) {
         !settings[streamId]->onRefractoryTime) {
 
       if (settings[streamId]->pluginEnabled) {
-        // only propagate a ripple event "ttl_percent" of the time
-        // otherwise record that we've detected one on the "Ripple_save"
-        // TTL channel
-        TTLEventPtr ev = settings[streamId]->createEvent(
-            settings[streamId]->ttlReportChannel,
-            getFirstSampleNumberForBlock(streamId) + rmsIdx, true);
-        addEvent(ev, rmsIdx);
-        if (distribute(generator) <= settings[streamId]->ttl_percent) {
-          TTLEventPtr event = settings[streamId]->createEvent(
-              settings[streamId]->rippleOutputChannel,
-              getFirstSampleNumberForBlock(streamId) + rmsIdx, 1);
-          settings[streamId]->rippleStartTime =
-              std::chrono::duration_cast<std::chrono::milliseconds>(
-                  std::chrono::system_clock::now().time_since_epoch());
-          addEvent(event, rmsIdx);
-          LOGC("Ripple detected on stream: ", streamId);
-        } else {
-          LOGC("Ripple detected on stream: ", streamId,
-               ", but blocked by chance!\n");
-        }
+        settings[streamId]->rippleStartTime =
+            std::chrono::duration_cast<std::chrono::milliseconds>(
+                std::chrono::system_clock::now().time_since_epoch());
+        TTLEventPtr event = settings[streamId]->createEvent(
+            settings[streamId]->rippleOutputChannel,
+            getFirstSampleNumberForBlock(streamId), true);
+        addEvent(event, 0);
+        LOGC("Ripple detected on stream: ", streamId);
       } else {
-        LOGC("Ripple detected on stream: ", streamId,
-             ", but TTL event was blocked by movement detection.\n");
+        LOGC("Ripple detected on stream", streamId,
+             "but TTL event was blocked by movement detection.\n");
       }
 
       settings[streamId]->rippleDetected = true;
@@ -609,9 +708,6 @@ void RippleDetector::detectRipples(uint64 streamId) {
           std::chrono::duration_cast<std::chrono::milliseconds>(
               std::chrono::system_clock::now().time_since_epoch());
     }
-
-    // printf("en %d, refrac %d, rms %f, thresh %f, counterAboveThresh %d\n",
-    // pluginEnabled, onRefractoryTime, rms, threshold, counterAboveThresh);
 
     // Check and reset refractory time
     if (settings[streamId]->onRefractoryTime) {
@@ -626,7 +722,6 @@ void RippleDetector::detectRipples(uint64 streamId) {
     }
   }
 }
-
 // Evaluate EMG/ACC signal to enable or disable ripple detection
 void RippleDetector::evalMovement(uint64 streamId) {
 
@@ -678,8 +773,8 @@ void RippleDetector::evalMovement(uint64 streamId) {
       addEvent(event, rmsIdx);
     }
 
-    // printf("plugin %d, flagUp %d, flagDown %d, Up %d, Down %d, rms %f, thresh
-    // %f\n", pluginEnabled, flagMovMinTimeUp, flagMovMinTimeDown,
+    // printf("plugin %d, flagUp %d, flagDown %d, Up %d, Down %d, rms %f,
+    // thresh %f\n", pluginEnabled, flagMovMinTimeUp, flagMovMinTimeDown,
     // counterMovUpThresh, counterMovDownThresh, rms, movThreshold);
   }
 }

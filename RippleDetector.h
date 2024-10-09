@@ -104,7 +104,7 @@ public:
   double ttl_duration; // the minimum length in ms of the TTL output
   double ttl_percent;  // the percentage of the time that a TTL output is
                        // produced following ripple detection
-
+  double random_number;
   // TTL event channel
   EventChannel *eventChannel;
 };
