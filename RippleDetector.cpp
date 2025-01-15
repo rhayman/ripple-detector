@@ -56,7 +56,7 @@ RippleDetector::RippleDetector() : GenericProcessor("Ripple Detector") {
 
   addIntParameter(Parameter::STREAM_SCOPE, "Ripple_save",
                   "The TTL line where ripple detection events are saved",
-                  1, // deafult
+                  3, // deafult
                   1, // min
                   16 // max
   );
@@ -535,7 +535,6 @@ void RippleDetector::detectRipples(uint64 streamId) {
 
     // Reset TTL if ripple was detected during the last iteration
     if (settings[streamId]->rippleDetected) {
-
       if (settings[streamId]->pluginEnabled) {
         auto time_now = std::chrono::duration_cast<std::chrono::milliseconds>(
             std::chrono::system_clock::now().time_since_epoch());
@@ -546,6 +545,7 @@ void RippleDetector::detectRipples(uint64 streamId) {
             TTLEventPtr event = settings[streamId]->createEvent(
                 settings[streamId]->rippleOutputChannel,
                 getFirstSampleNumberForBlock(streamId), false);
+            LOGC("Resetting TTL. Random number is: ", settings[streamId]->random_number);
             addEvent(event, 0);
             settings[streamId]->rippleDetected = false;
           }
@@ -572,6 +572,8 @@ void RippleDetector::detectRipples(uint64 streamId) {
         !settings[streamId]->onRefractoryTime) {
 
       if (settings[streamId]->pluginEnabled) {
+
+          settings[streamId]->random_number = distribute(generator);
         settings[streamId]->rippleStartTime =
             std::chrono::duration_cast<std::chrono::milliseconds>(
                 std::chrono::system_clock::now().time_since_epoch());
@@ -579,7 +581,7 @@ void RippleDetector::detectRipples(uint64 streamId) {
             settings[streamId]->ttlReportChannel,
             getFirstSampleNumberForBlock(streamId), true);
         addEvent(event, 0);
-        settings[streamId]->random_number = distribute(generator);
+        
         // only create a ttl event on the output line if chance dictates...
         if (settings[streamId]->random_number <=
             settings[streamId]->ttl_percent) {
@@ -588,8 +590,10 @@ void RippleDetector::detectRipples(uint64 streamId) {
               getFirstSampleNumberForBlock(streamId), true);
           addEvent(event_1, 0);
           LOGC("Ripple detected and propagated on stream: ", streamId);
+          LOGC("Random number: ", settings[streamId]->random_number);
         } else {
           LOGC("Ripple detected but blocked by chance");
+          LOGC("Random number: ", settings[streamId]->random_number);
         }
 
       } else {
