@@ -1,7 +1,10 @@
 #include "RippleDetector.h"
 #include "RippleDetectorEditor.h"
+#include <algorithm>
 #include <cstdint>
+#include <numeric>
 #include <random>
+#include <vector>
 
 #define CALIBRATION_DURATION_SECONDS 10
 // random number generator for ttl event percent output
@@ -189,6 +192,22 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
     }
   } else if (paramName.equalsIgnoreCase("Ripple_Out")) {
     settings[streamId]->rippleOutputChannel = (int)param->getValue() - 1;
+    if (settings[streamId]->rippleOutputChannel ==
+        settings[streamId]->ttlReportChannel) {
+      // use std::set_difference to figure out which unique value to change this
+      // to
+      auto current_value = (int)param->getValue();
+      std::vector<int> this_val;
+      this_val.push_back(current_value);
+      std::vector<int> vals(16);
+      std::iota(vals.begin(), vals.end(), 1);
+      std::vector<int> diffs;
+      std::set_difference(vals.begin(), vals.end(), this_val.begin(),
+                          this_val.end(), std::back_inserter(diffs));
+      current_value = diffs[0];
+      param->setNextValue(current_value);
+    }
+
   } else if (paramName.equalsIgnoreCase("ripple_std")) {
     settings[streamId]->rippleSds = (float)param->getValue();
   } else if (paramName.equalsIgnoreCase("Time_Thresh")) {
@@ -203,6 +222,7 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
   } else if (paramName.equalsIgnoreCase("ttl_percent")) {
     settings[streamId]->ttl_percent = (double)param->getValue();
   } else if (paramName.equalsIgnoreCase("Ripple_save")) {
+    // Ensure this value is different from settings->rippleOutputChannel
     settings[streamId]->ttlReportChannel = (int)param->getValue() - 1;
   } else if (paramName.equalsIgnoreCase("RMS_Samples")) {
     settings[streamId]->rmsSamples = (int)param->getValue();
@@ -523,6 +543,62 @@ void RippleDetector::finishCalibration(uint64 streamId) {
   }
 }
 
+// Evaluate EMG/ACC signal to enable or disable ripple detection
+void RippleDetector::evalMovement(uint64 streamId) {
+
+  // Iterate over RMS blocks inside buffer
+  for (unsigned int rmsIdx = 0; rmsIdx < movRmsValuesArray[streamId].size();
+       rmsIdx++) {
+    double rms = movRmsValuesArray[streamId][rmsIdx];
+    int samples = movRmsNumSamplesArray[streamId][rmsIdx];
+
+    // Counter: acumulate time above or below threshold
+    if (rms > settings[streamId]->movThreshold) {
+      settings[streamId]->counterMovUpThresh += samples;
+      settings[streamId]->flagMovMinTimeDown = false;
+    } else {
+      settings[streamId]->counterMovDownThresh += samples;
+      settings[streamId]->flagMovMinTimeUp = false;
+      settings[streamId]->counterMovUpThresh = 0;
+    }
+
+    // Set flags when minimum time above or below threshold is achieved
+    if (settings[streamId]->counterMovUpThresh >
+        settings[streamId]->minMovSamplesAboveThresh) {
+      settings[streamId]->flagMovMinTimeUp = true;
+      settings[streamId]->counterMovDownThresh =
+          0; // Reset counterMovDownThresh only when there is movement for
+             // enough time
+    }
+    if (settings[streamId]->counterMovDownThresh >
+        settings[streamId]->minMovSamplesBelowThresh) {
+      settings[streamId]->flagMovMinTimeDown = true;
+    }
+
+    // Disable plugin...
+    if (settings[streamId]->pluginEnabled &&
+        settings[streamId]->flagMovMinTimeUp) {
+      settings[streamId]->pluginEnabled = false;
+      TTLEventPtr event = settings[streamId]->createEvent(
+          settings[streamId]->movementOutputChannel,
+          getFirstSampleNumberForBlock(streamId) + rmsIdx, 1);
+      addEvent(event, rmsIdx);
+    }
+    // ... or enable plugin
+    if (!settings[streamId]->pluginEnabled &&
+        settings[streamId]->flagMovMinTimeDown) {
+      settings[streamId]->pluginEnabled = true;
+      TTLEventPtr event = settings[streamId]->createEvent(
+          settings[streamId]->movementOutputChannel,
+          getFirstSampleNumberForBlock(streamId) + rmsIdx, 0);
+      addEvent(event, rmsIdx);
+    }
+
+    // printf("plugin %d, flagUp %d, flagDown %d, Up %d, Down %d, rms %f,
+    // thresh %f\n", pluginEnabled, flagMovMinTimeUp, flagMovMinTimeDown,
+    // counterMovUpThresh, counterMovDownThresh, rms, movThreshold);
+  }
+}
 void RippleDetector::detectRipples(uint64 streamId) {
 
   std::vector<double> &rmsValues = rmsValuesArray[streamId];
@@ -617,61 +693,5 @@ void RippleDetector::detectRipples(uint64 streamId) {
         settings[streamId]->onRefractoryTime = false;
       }
     }
-  }
-}
-// Evaluate EMG/ACC signal to enable or disable ripple detection
-void RippleDetector::evalMovement(uint64 streamId) {
-
-  // Iterate over RMS blocks inside buffer
-  for (unsigned int rmsIdx = 0; rmsIdx < movRmsValuesArray[streamId].size();
-       rmsIdx++) {
-    double rms = movRmsValuesArray[streamId][rmsIdx];
-    int samples = movRmsNumSamplesArray[streamId][rmsIdx];
-
-    // Counter: acumulate time above or below threshold
-    if (rms > settings[streamId]->movThreshold) {
-      settings[streamId]->counterMovUpThresh += samples;
-      settings[streamId]->flagMovMinTimeDown = false;
-    } else {
-      settings[streamId]->counterMovDownThresh += samples;
-      settings[streamId]->flagMovMinTimeUp = false;
-      settings[streamId]->counterMovUpThresh = 0;
-    }
-
-    // Set flags when minimum time above or below threshold is achieved
-    if (settings[streamId]->counterMovUpThresh >
-        settings[streamId]->minMovSamplesAboveThresh) {
-      settings[streamId]->flagMovMinTimeUp = true;
-      settings[streamId]->counterMovDownThresh =
-          0; // Reset counterMovDownThresh only when there is movement for
-             // enough time
-    }
-    if (settings[streamId]->counterMovDownThresh >
-        settings[streamId]->minMovSamplesBelowThresh) {
-      settings[streamId]->flagMovMinTimeDown = true;
-    }
-
-    // Disable plugin...
-    if (settings[streamId]->pluginEnabled &&
-        settings[streamId]->flagMovMinTimeUp) {
-      settings[streamId]->pluginEnabled = false;
-      TTLEventPtr event = settings[streamId]->createEvent(
-          settings[streamId]->movementOutputChannel,
-          getFirstSampleNumberForBlock(streamId) + rmsIdx, 1);
-      addEvent(event, rmsIdx);
-    }
-    // ... or enable plugin
-    if (!settings[streamId]->pluginEnabled &&
-        settings[streamId]->flagMovMinTimeDown) {
-      settings[streamId]->pluginEnabled = true;
-      TTLEventPtr event = settings[streamId]->createEvent(
-          settings[streamId]->movementOutputChannel,
-          getFirstSampleNumberForBlock(streamId) + rmsIdx, 0);
-      addEvent(event, rmsIdx);
-    }
-
-    // printf("plugin %d, flagUp %d, flagDown %d, Up %d, Down %d, rms %f,
-    // thresh %f\n", pluginEnabled, flagMovMinTimeUp, flagMovMinTimeDown,
-    // counterMovUpThresh, counterMovDownThresh, rms, movThreshold);
   }
 }

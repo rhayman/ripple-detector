@@ -39,7 +39,7 @@ public:
   RippleDetectorEditor(GenericProcessor *parentNode);
   virtual ~RippleDetectorEditor() {}
 
-  void buttonClicked(Button *);
+  void buttonClicked(Button *) override;
   void updateSettings() override;
 
 private:

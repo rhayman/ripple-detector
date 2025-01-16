@@ -127,4 +127,4 @@ void RippleDetectorEditor::buttonClicked(Button *) {
 }
 
 // Called when settings are updated
-void RippleDetectorEditor::updateSettings() {}
+void RippleDetectorEditor::updateSettings() { LOGC("Updating settings"); }
