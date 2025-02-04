@@ -311,11 +311,13 @@ void RippleDetector::process(AudioBuffer<float> &buffer) {
       // calibration button was clicked
       if (!settings[streamId]->pluginEnabled &&
           (!settings[streamId]->movSwitchEnabled || shouldCalibrate)) {
+        LOGC("Entered at line 314");
         settings[streamId]->pluginEnabled = true;
         TTLEventPtr event = settings[streamId]->createEvent(
             settings[streamId]->movementOutputChannel, firstSampleInBlock,
             false);
         addEvent(event, 0);
+        LOGC("Entered at line 320");
       }
 
       settings[streamId]->numSamplesTimeThreshold =
@@ -351,8 +353,10 @@ void RippleDetector::process(AudioBuffer<float> &buffer) {
         calibrationMovRmsValues[streamId].clear();
 
         shouldCalibrate = false;
+        LOGC("Ended calibration state changes");
       }
 
+      LOGC("init accel etc");
       const float *rippleData =
           buffer.getReadPointer(settings[streamId]->rippleInputChannel, 0);
       const float *emgData{NULL};
@@ -361,12 +365,15 @@ void RippleDetector::process(AudioBuffer<float> &buffer) {
       accMagnit.clear();
       if (settings[streamId]->movSwitchEnabled) {
         if (settings[streamId]->movSwitch.equalsIgnoreCase("ACC")) {
+          LOGC("Entered ACC, getting getReadPointer");
           for (int i = 0; i < settings[streamId]->auxChannelIndices.size();
                i++) {
             accelData[i] = buffer.getReadPointer(
                 settings[streamId]->auxChannelIndices[i], 0);
           }
+          LOGC("About to calculateAccelMod");
           accMagnit = calculateAccelMod(accelData, numSamplesInBlock);
+          LOGC("Ended calculateAccelMod");
         } else // EMG
         {
           emgData = buffer.getReadPointer(
