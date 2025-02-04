@@ -152,7 +152,7 @@ private:
 
   double calculateRms(const float *data, int initIndex, int endIndexOpen);
   double calculateRms(std::vector<float> data, int initIndex, int endIndex);
-  std::vector<float> calculateAccelMod(const float *axis[3],
+  std::vector<float> calculateAccelMod(std::vector<std::vector<float>> axis,
                                        int numberOfSamples);
 
   JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(RippleDetector);

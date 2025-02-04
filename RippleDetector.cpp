@@ -275,6 +275,11 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
     settings[streamId]->movChannChanged = true;
   } else if (paramName.equalsIgnoreCase("mov_out")) {
     settings[streamId]->movementOutputChannel = (int)param->getValue() - 1;
+    auto stream = getDataStream(streamId);
+    auto param1 = stream->getParameter("Ripple_Out");
+    makeParamsUnique(param, param1);
+    param1 = stream->getParameter("Ripple_save");
+    makeParamsUnique(param, param1);
   } else if (paramName.equalsIgnoreCase("mov_std")) {
     settings[streamId]->movSds = (float)param->getValue();
   } else if (paramName.equalsIgnoreCase("min_time_st")) {
@@ -311,13 +316,11 @@ void RippleDetector::process(AudioBuffer<float> &buffer) {
       // calibration button was clicked
       if (!settings[streamId]->pluginEnabled &&
           (!settings[streamId]->movSwitchEnabled || shouldCalibrate)) {
-        LOGC("Entered at line 314");
         settings[streamId]->pluginEnabled = true;
         TTLEventPtr event = settings[streamId]->createEvent(
             settings[streamId]->movementOutputChannel, firstSampleInBlock,
             false);
         addEvent(event, 0);
-        LOGC("Entered at line 320");
       }
 
       settings[streamId]->numSamplesTimeThreshold =
@@ -353,31 +356,29 @@ void RippleDetector::process(AudioBuffer<float> &buffer) {
         calibrationMovRmsValues[streamId].clear();
 
         shouldCalibrate = false;
-        LOGC("Ended calibration state changes");
+        LOGC("Finished calibrating...");
       }
 
-      LOGC("init accel etc");
       const float *rippleData =
           buffer.getReadPointer(settings[streamId]->rippleInputChannel, 0);
-      const float *emgData{NULL};
-      const float *accelData[3]{NULL, NULL, NULL};
+      std::vector<float> emgData{};
+      std::vector<std::vector<float>> accelData{};
       std::vector<float> accMagnit;
       accMagnit.clear();
       if (settings[streamId]->movSwitchEnabled) {
         if (settings[streamId]->movSwitch.equalsIgnoreCase("ACC")) {
-          LOGC("Entered ACC, getting getReadPointer");
           for (int i = 0; i < settings[streamId]->auxChannelIndices.size();
                i++) {
-            accelData[i] = buffer.getReadPointer(
+            auto p = buffer.getReadPointer(
                 settings[streamId]->auxChannelIndices[i], 0);
+            std::vector<float> v(p, p + numSamplesInBlock);
+            accelData.push_back(v);
           }
-          LOGC("About to calculateAccelMod");
           accMagnit = calculateAccelMod(accelData, numSamplesInBlock);
-          LOGC("Ended calculateAccelMod");
         } else // EMG
         {
-          emgData = buffer.getReadPointer(
-              settings[streamId]->movementInputChannel, 0);
+          emgData[0] = *const_cast<float *>(buffer.getReadPointer(
+              settings[streamId]->movementInputChannel, 0));
         }
       }
       rmsValuesArray[streamId].clear();
@@ -392,7 +393,7 @@ void RippleDetector::process(AudioBuffer<float> &buffer) {
         else
           settings[streamId]->rmsEndIdx =
               rmsStartIdx + settings[streamId]->rmsSamples;
-
+        // LOGC("before calculateRms");
         double rms = calculateRms(rippleData, rmsStartIdx,
                                   settings[streamId]->rmsEndIdx);
 
@@ -443,6 +444,7 @@ void RippleDetector::process(AudioBuffer<float> &buffer) {
         if (settings[streamId]->movSwitchEnabled)
           evalMovement(streamId);
       }
+      // LOGC("at end");
     }
   }
 }
@@ -469,8 +471,9 @@ double RippleDetector::calculateRms(std::vector<float> data, int initIndex,
 }
 
 // Calculate the modulus of the accelerometer vector
-std::vector<float> RippleDetector::calculateAccelMod(const float *axis[3],
-                                                     int numberOfSamples) {
+std::vector<float>
+RippleDetector::calculateAccelMod(std::vector<std::vector<float>> axis,
+                                  int numberOfSamples) {
   std::vector<float> modArr;
   for (int p = 0; p < numberOfSamples; p++) {
     modArr.push_back(sqrt(pow(axis[0][p], 2.0) + pow(axis[1][p], 2.0) +
