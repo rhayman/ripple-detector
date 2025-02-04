@@ -182,6 +182,11 @@ AudioProcessorEditor *RippleDetector::createEditor() {
   return editor.get();
 }
 
+void RippleDetector::makeParamsUnique(Parameter *param1, Parameter *param2) {
+  if ((int)param1->getValue() == (int)param2->getValue())
+    param1->setNextValue((int)param1->getValue() + 1);
+}
+
 void RippleDetector::parameterValueChanged(Parameter *param) {
 
   String paramName = param->getName();
@@ -200,23 +205,10 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
       settings[streamId]->rippleInputChannel = -1;
     }
   } else if (paramName.equalsIgnoreCase("Ripple_Out")) {
-    settings[streamId]->rippleOutputChannel = (int)param->getValue() - 1;
-    if (settings[streamId]->rippleOutputChannel ==
-        settings[streamId]->ttlReportChannel) {
-      // use std::set_difference to figure out which unique value to change this
-      // to
-      auto current_value = (int)param->getValue();
-      std::vector<int> this_val;
-      this_val.push_back(current_value);
-      std::vector<int> vals(16);
-      std::iota(vals.begin(), vals.end(), 1);
-      std::vector<int> diffs;
-      std::set_difference(vals.begin(), vals.end(), this_val.begin(),
-                          this_val.end(), std::back_inserter(diffs));
-      current_value = diffs[0];
-      param->setNextValue(current_value);
-    }
-
+    settings[streamId]->rippleOutputChannel = (int)param->getValue();
+    auto stream = getDataStream(streamId);
+    auto param1 = stream->getParameter("Ripple_save");
+    makeParamsUnique(param, param1);
   } else if (paramName.equalsIgnoreCase("ripple_std")) {
     settings[streamId]->rippleSds = (float)param->getValue();
   } else if (paramName.equalsIgnoreCase("Time_Thresh")) {
@@ -231,8 +223,6 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
   } else if (paramName.equalsIgnoreCase("ttl_percent")) {
     settings[streamId]->ttl_percent = (double)param->getValue();
   } else if (paramName.equalsIgnoreCase("RMS_mean")) {
-    auto val = (double)param->getValue();
-    LOGC("RMS_mean: ", val);
     settings[streamId]->rmsMean = (double)param->getValue();
     // param->setNextValue(settings[streamId]->rmsMean);
   } else if (paramName.equalsIgnoreCase("RMS_std")) {
@@ -240,6 +230,9 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
   } else if (paramName.equalsIgnoreCase("Ripple_save")) {
     // Ensure this value is different from settings->rippleOutputChannel
     settings[streamId]->ttlReportChannel = (int)param->getValue() - 1;
+    auto stream = getDataStream(streamId);
+    auto param1 = stream->getParameter("Ripple_Out");
+    makeParamsUnique(param, param1);
   } else if (paramName.equalsIgnoreCase("RMS_Samples")) {
     settings[streamId]->rmsSamples = (int)param->getValue();
   } else if (paramName.equalsIgnoreCase("mov_detect")) {
