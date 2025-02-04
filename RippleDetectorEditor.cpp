@@ -111,6 +111,12 @@ RippleDetectorEditor::RippleDetectorEditor(GenericProcessor *parentNode)
   param = getProcessor()->getParameter("ttl_percent");
   addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 435, 25);
 
+  param = getProcessor()->getParameter("RMS_mean");
+  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 435, 75);
+
+  param = getProcessor()->getParameter("RMS_std");
+  addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 435, 100);
+
   param = getProcessor()->getParameter("Ripple_save");
   addCustomParameterEditor(new CustomTextBoxParameterEditor(param), 435, 50);
   /* Calibration Button */

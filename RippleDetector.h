@@ -76,13 +76,13 @@ public:
                          // movement detector when "ACCEL" is selected
 
   // RMS variables
-  int rmsEndIdx;       // The end index for RMS calculation windows
-  double rmsMean;      // Baseline RMS mean for ripple detection
-  double rmsStdDev;    // Baseline RMS standard deviation for ripple detection
-  double movRmsMean;   // Baseline RMS mean for EMG/ACC signal
-  double movRmsStdDev; // Baseline RMS standard deviation for EMG signal
-  double threshold;    // Final threshold for ripple detection
-  double movThreshold; // Final EMG/ACC threshold for movement detector
+  int rmsEndIdx;        // The end index for RMS calculation windows
+  double rmsMean = 0;   // Baseline RMS mean for ripple detection
+  double rmsStdDev = 0; // Baseline RMS standard deviation for ripple detection
+  double movRmsMean;    // Baseline RMS mean for EMG/ACC signal
+  double movRmsStdDev;  // Baseline RMS standard deviation for EMG signal
+  double threshold;     // Final threshold for ripple detection
+  double movThreshold;  // Final EMG/ACC threshold for movement detector
 
   // Event flags
   bool isCalibrating{true};     // Is in the calibration step
