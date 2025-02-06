@@ -182,9 +182,32 @@ AudioProcessorEditor *RippleDetector::createEditor() {
   return editor.get();
 }
 
-void RippleDetector::makeParamsUnique(Parameter *param1, Parameter *param2) {
-  if ((int)param1->getValue() == (int)param2->getValue())
-    param1->setNextValue((int)param1->getValue() + 1);
+void RippleDetector::makeParamValuesUnique(Parameter *param1,
+                                           Parameter *param2) {
+
+  assert(param1->getType() == param2->getType());
+
+  auto current_value = param1->getValue();
+  auto max_value = param1->getValue(); // gets changed to actual max below
+
+  if (current_value == param2->getValue()) {
+
+    if (param1->getType() == Parameter::ParameterType::INT_PARAM) {
+      max_value = ((IntParameter *)param1)->getMaxValue();
+      if (current_value < max_value)
+        param1->setNextValue((int)current_value + 1);
+      else
+        param1->setNextValue((int)current_value - 1);
+    }
+    if (param1->getType() == Parameter::ParameterType::FLOAT_PARAM) {
+      max_value = ((FloatParameter *)param1)->getMaxValue();
+      if (current_value < max_value)
+        param1->setNextValue((float)current_value + 1);
+      else
+        param1->setNextValue((float)current_value - 1);
+    }
+  }
+  // Deal with other Parameter types...
 }
 
 void RippleDetector::parameterValueChanged(Parameter *param) {
@@ -208,7 +231,7 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
     settings[streamId]->rippleOutputChannel = (int)param->getValue();
     auto stream = getDataStream(streamId);
     auto param1 = stream->getParameter("Ripple_save");
-    makeParamsUnique(param, param1);
+    makeParamValuesUnique(param, param1);
   } else if (paramName.equalsIgnoreCase("ripple_std")) {
     settings[streamId]->rippleSds = (float)param->getValue();
   } else if (paramName.equalsIgnoreCase("Time_Thresh")) {
@@ -232,7 +255,7 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
     settings[streamId]->ttlReportChannel = (int)param->getValue() - 1;
     auto stream = getDataStream(streamId);
     auto param1 = stream->getParameter("Ripple_Out");
-    makeParamsUnique(param, param1);
+    makeParamValuesUnique(param, param1);
   } else if (paramName.equalsIgnoreCase("RMS_Samples")) {
     settings[streamId]->rmsSamples = (int)param->getValue();
   } else if (paramName.equalsIgnoreCase("mov_detect")) {
@@ -277,9 +300,9 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
     settings[streamId]->movementOutputChannel = (int)param->getValue() - 1;
     auto stream = getDataStream(streamId);
     auto param1 = stream->getParameter("Ripple_Out");
-    makeParamsUnique(param, param1);
-    param1 = stream->getParameter("Ripple_save");
-    makeParamsUnique(param, param1);
+    makeParamValuesUnique(param, param1);
+    auto param2 = stream->getParameter("Ripple_save");
+    makeParamValuesUnique(param, param2);
   } else if (paramName.equalsIgnoreCase("mov_std")) {
     settings[streamId]->movSds = (float)param->getValue();
   } else if (paramName.equalsIgnoreCase("min_time_st")) {

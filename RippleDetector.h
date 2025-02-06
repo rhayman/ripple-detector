@@ -131,7 +131,7 @@ public:
 
   std::atomic<bool> shouldCalibrate{true};
 
-  void makeParamsUnique(Parameter *param1, Parameter *param2);
+  void makeParamValuesUnique(Parameter *param1, Parameter *param2);
 
 private:
   RippleDetectorEditor *ed;
