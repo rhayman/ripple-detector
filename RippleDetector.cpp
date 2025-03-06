@@ -228,7 +228,7 @@ void RippleDetector::parameterValueChanged(Parameter *param) {
       settings[streamId]->rippleInputChannel = -1;
     }
   } else if (paramName.equalsIgnoreCase("Ripple_Out")) {
-    settings[streamId]->rippleOutputChannel = (int)param->getValue();
+    settings[streamId]->rippleOutputChannel = (int)param->getValue() - 1;
     auto stream = getDataStream(streamId);
     auto param1 = stream->getParameter("Ripple_save");
     makeParamValuesUnique(param, param1);
